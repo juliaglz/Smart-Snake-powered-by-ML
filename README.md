@@ -14,7 +14,7 @@ In the supervised approach, the snake learns to play based on labeled data. This
   - Prediction: The model might predict the next best action given the current game state, leveraging features like the snake's position, apple's position, and proximity to walls or its own body.
 
 - Unsupervised Learning (Q-Learning)
-The unsupervised approach utilizes Q-learning, a popular reinforcement learning (RL) algorithm, allowing the snake to learn through trial and error. The snake agent interacts with the environment, receives rewards for desirable actions (like eating an apple) and penalties for undesirable ones (like colliding), and updates its "Q-values" accordingly.
+The unsupervised approach utilizes Q-learning, allowing the snake to learn through trial and error. The snake agent interacts with the environment, receives rewards for desirable actions (like eating an apple) and penalties for undesirable ones (like colliding), and updates its "Q-values" accordingly.
 
   Two variations of Q-learning are implemented:
   
